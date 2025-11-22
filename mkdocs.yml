@@ -1,4 +1,5 @@
 site_name: Chen Li
+site_url: https://chenli-git.github.io/chenli-website/
 theme:
   name: material
   features:
