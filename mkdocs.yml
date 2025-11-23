@@ -70,3 +70,6 @@ extra:
       link: https://www.linkedin.com/in/chenli-unc-ncsu/
     - icon: fontawesome/solid/envelope
       link: mailto:chenli970701@gmail.com
+      
+extra_javascript:
+  - js/cloudflare.js
