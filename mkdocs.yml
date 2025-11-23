@@ -77,7 +77,6 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
-      link: mailto:chenli970701@gmail.com
 
 extra_javascript:
   - js/cloudflare.js
