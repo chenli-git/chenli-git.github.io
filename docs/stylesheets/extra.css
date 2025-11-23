@@ -113,6 +113,19 @@ body:has(button:hover) .cursor-follower {
   background: linear-gradient(135deg, #1d1d1f 0%, #2d2d30 50%, #3a3a3c 100%);
 }
 
+/* Fix header and tabs to stay at top while scrolling */
+.md-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+.md-tabs {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 999 !important;
+}
+
 /* Smooth glassmorphism effect for cards */
 .md-typeset h2 {
   background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid));
