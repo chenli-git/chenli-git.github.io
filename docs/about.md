@@ -25,7 +25,6 @@ I'm a Senior Image Data Scientist at St. Jude Children's Research Hospital, wher
 
 **Ph.D. in Biomedical Engineering**  
 North Carolina State University & UNC Chapel Hill | 2019-2024
-Dissertation: Deep Learning Based Intelligent Light-Sheet Fluorescence Microscopy
 
 **Master in Automation**  
 Huazhong University of Science and Technology | 2016-2019
