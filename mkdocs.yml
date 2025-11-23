@@ -1,18 +1,72 @@
-site_name: Chen Li
+site_name: Chen Li - Image Data Scientist
 site_url: "https://chenli-git.github.io/"
+site_author: Chen Li
+site_description: Personal website of Chen Li, Senior Image Data Scientist specializing in microscopy image analysis, deep learning, and AI for bioimaging research.
+
 theme:
   name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
+    - navigation.top
     - toc.integrate
     - content.code.copy
     - content.code.annotate
     - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
+# Repository
+repo_name: chenli-git/chenli-website
+repo_url: https://github.com/chenli-git/chenli-website
+
+# Navigation
 nav:
   - Home: index.md
   - About: about.md
   - Projects: projects.md
   - Publications: publications.md
   - Contact: contact.md
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chenli-git
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/chenli-unc-ncsu/
+    - icon: fontawesome/solid/envelope
+      link: mailto:chenli970701@gmail.com
