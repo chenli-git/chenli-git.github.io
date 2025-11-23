@@ -45,18 +45,19 @@ document.addEventListener('DOMContentLoaded', function() {
     targetX += (mouseX - targetX) * 0.05;
     targetY += (mouseY - targetY) * 0.05;
 
-    // Smooth interpolation for cursor follower
-    followerX += (cursorX - followerX) * 0.1;
-    followerY += (cursorY - followerY) * 0.1;
+    // Faster cursor response - almost instant
+    followerX += (cursorX - followerX) * 0.3;
+    followerY += (cursorY - followerY) * 0.3;
 
     const xPercent = (targetX / window.innerWidth) * 100;
     const yPercent = (targetY / window.innerHeight) * 100;
 
-    // Update cursor positions
+    // Update cursor positions - main cursor follows instantly
     cursor.style.left = cursorX + 'px';
     cursor.style.top = cursorY + 'px';
     cursor.style.transform = 'translate(-50%, -50%)';
 
+    // Follower has slight delay
     follower.style.left = followerX + 'px';
     follower.style.top = followerY + 'px';
     follower.style.transform = 'translate(-50%, -50%)';
