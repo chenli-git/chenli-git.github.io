@@ -113,33 +113,6 @@ body:has(button:hover) .cursor-follower {
   background: linear-gradient(135deg, #1d1d1f 0%, #2d2d30 50%, #3a3a3c 100%);
 }
 
-/* Make tabs always visible and fixed */
-.md-tabs {
-  background: inherit !important;
-  position: fixed !important;
-  top: 3.5rem !important;
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 999 !important;
-  width: 100% !important;
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* Fix header to stay at top */
-.md-header {
-  position: fixed !important;
-  top: 0 !important;
-  z-index: 1000 !important;
-  width: 100% !important;
-}
-
-/* Add padding to content so it doesn't hide under fixed header/tabs */
-.md-main {
-  margin-top: 7rem !important;
-}
-
 /* Smooth glassmorphism effect for cards */
 .md-typeset h2 {
   background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid));
