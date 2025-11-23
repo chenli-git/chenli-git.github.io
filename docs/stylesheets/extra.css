@@ -175,22 +175,7 @@ img[alt="Chen Li"]:hover {
   border-radius: 8px;
 }
 
-.md-tabs__link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateX(-50%);
-}
-
-.md-tabs__link:hover::after,
-.md-tabs__item--active .md-tabs__link::after {
-  width: 100%;
-}
+/* Remove underline animation that causes movement */
 
 /* Animated bullet points */
 .md-typeset ul {
