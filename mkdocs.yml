@@ -80,3 +80,4 @@ extra_css:
 
 extra_javascript:
   - js/cloudflare.js
+  - js/interactive-background.js

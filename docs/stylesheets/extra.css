@@ -5,6 +5,28 @@
   --gradient-end: #AF52DE;
 }
 
+/* Body background for interactive effect */
+body {
+  transition: background 0.3s ease;
+  background-attachment: fixed;
+}
+
+/* Content container with subtle backdrop */
+.md-main__inner {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-main__inner {
+  background: rgba(26, 26, 26, 0.85);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
 /* Light mode gradient background */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #007AFF;
