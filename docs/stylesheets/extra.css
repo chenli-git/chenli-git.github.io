@@ -127,6 +127,11 @@ body:has(button:hover) .cursor-follower {
   height: calc(100vh - 3.5rem) !important;
 }
 
+/* Add top padding to main content to prevent overlap */
+.md-content {
+  padding-top: 1rem !important;
+}
+
 /* Smooth glassmorphism effect for cards */
 .md-typeset h2 {
   background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid));
