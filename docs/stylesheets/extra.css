@@ -113,25 +113,6 @@ body:has(button:hover) .cursor-follower {
   background: linear-gradient(135deg, #1d1d1f 0%, #2d2d30 50%, #3a3a3c 100%);
 }
 
-/* Fix header in place */
-.md-header {
-  position: fixed !important;
-  top: 0 !important;
-  z-index: 1001 !important;
-}
-
-/* Style sidebar navigation */
-.md-sidebar--primary {
-  position: fixed !important;
-  top: 3.5rem !important;
-  height: calc(100vh - 3.5rem) !important;
-}
-
-/* Add top padding to main content to prevent overlap */
-.md-content {
-  padding-top: 1rem !important;
-}
-
 /* Smooth glassmorphism effect for cards */
 .md-typeset h2 {
   background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid));
