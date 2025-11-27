@@ -17,6 +17,20 @@ Welcome! I specialize in microscopy image analysis, deep learning pipelines, and
 🧬 **Research** - Applying AI to cancer research and biological imaging at St. Jude  
 💻 **Software Development** - Creating tools in Python and Java for the scientific community
 
+## 3D Imaging Examples
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
+  <div style="text-align: center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/mhPL3T2yYfk" title="3D Mouse Brain Imaging" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></iframe>
+    <p style="margin-top: 10px; font-style: italic; color: #666;">3D Mouse Brain Imaging</p>
+  </div>
+  
+  <div style="text-align: center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/a4ARC6j9sIA" title="3D Cochlea Reconstruction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></iframe>
+    <p style="margin-top: 10px; font-style: italic; color: #666;">3D Cochlea Reconstruction</p>
+  </div>
+</div>
+
 ## Highlights
 
 - **10+ peer-reviewed publications** in biomedical imaging and optics
